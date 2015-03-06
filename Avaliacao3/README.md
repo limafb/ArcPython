@@ -28,4 +28,4 @@ A pontuação para essa avaliação fica:
 * c) Cortar os TIFs: 2,5 pontos
 * d) Salvar os resultados corretamente na pasta de saída: 1,0 ponto
 * e) Realizar as validações: 1,5 ponto cada validação
----
+
