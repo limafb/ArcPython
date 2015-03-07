@@ -4,6 +4,7 @@ Este projeto diz respeito ao conteúdo visto até a Prática 04 da apostila. Cri
 * (1) a pasta de entrada com os arquivos a serem cortados; 
 * (2) um Shapefile do tipo polígono para máscara de corte; 
 * (3) uma pasta de saída para salvar os arquivos resultantes. 
+
 O script em Python pegará todos os arquivos ESRI Shapefile (*.shp) e Tagged Image Format File (*.tif) 
 contidos nessa pasta de entrada e cortará pela máscara fornecida. Se o arquivo for Shapefile, corte-o 
 utilizando o comando Clip. Se o arquivo for TIF, corte-o com o comando Extract By Mask do Spatial Analyst. 
