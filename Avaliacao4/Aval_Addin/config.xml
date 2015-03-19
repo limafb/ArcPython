@@ -1,0 +1,11 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin Avaliacao4</Name><AddInID>{7ae2d3a0-9770-4c7f-a022-9addd84e2f90}</AddInID><Description>Copia fei&#231;&#245;es para um novo shape file </Description><Version>0.1</Version><Image /><Author>Fabio Bueno de Lima</Author><Company>AmbitecGeo</Company><Date>03/15/2015</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="AvalAddin_addin.py" namespace="AvalAddin_addin"><ArcMap>
+    <Commands>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Toolbar" category="Python Addin Avaliacao4" id="AvalAddin_addin.toolbar" showInitially="true"><Items /></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
