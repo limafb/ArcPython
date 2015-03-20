@@ -1,0 +1,14 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Aval4</Name><AddInID>{ed97d103-25a0-4c9c-94b4-57388558aa23}</AddInID><Description>Avalia&#231;&#227;o 4 do curso Labgis Python</Description><Version>0.1</Version><Image /><Author>F&#225;bio Bueno de Lima</Author><Company>AmbitecGeo</Company><Date>03/19/2015</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="AvalAddin_addin.py" namespace="AvalAddin_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Seleciona" category="Aval4" class="ToolClass2" id="AvalAddin_addin.tool" image="" message="Desenhe um ret&#226;ngulo para selecionar as features" tip="Ative para criar um pol&#237;gono"><Help heading="" /></Tool>
+        <ComboBox caption="ComboBox" category="Aval4" class="ComboBoxClass3" id="AvalAddin_addin.combobox" itemSizeString="WWWWWW" message="Escolha a op&#231;&#227;o de Sobreposi&#231;&#227;o" rows="4" sizeString="WWWWWW" tip="Within ou Intersect"><Help heading="" /></ComboBox>
+        <Button caption="Copia" category="Aval4" class="ButtonClass4" id="AvalAddin_addin.button" image="Images\B1.png" message="Ative para copiar as features selecionadas em um novo arquivo" tip="Copia a sele&#231;&#227;o"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Copia Feature" category="Aval4" id="AvalAddin_addin.toolbar" showInitially="true"><Items><Tool refID="AvalAddin_addin.tool" /><ComboBox refID="AvalAddin_addin.combobox" /><Button refID="AvalAddin_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
